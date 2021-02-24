@@ -5,6 +5,8 @@ STARTDIR=$PWD
 pathToJar=${STARTDIR}/mcserver/server.jar
 MAXRAM=$(($(free -m | grep Mem: | awk '{print $2}') - 1000))
 
+echo -e "Use the numbers to select options"
+
 function killscript(){
     echo -e "Script has finished"
     exit
