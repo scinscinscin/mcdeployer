@@ -5,7 +5,7 @@ Deploy Java and Bedrock servers from the command line
 ### Usage:
 
 ```bash
-curl https://raw.githubusercontent.com/scinscinscin/mcdeployer/master/installer.sh | bash
+bash -c "$(curl -s https://raw.githubusercontent.com/scinscinscin/mcdeployer/master/installer.sh)"
 ```
 
 ### Why:
